@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5C64D41EB7CC9F0055C3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */; };
+		0D5C64D61EB7CC9F0055C3F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64D51EB7CC9F0055C3F5 /* ViewController.swift */; };
+		0D5C64D91EB7CCA00055C3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64D71EB7CCA00055C3F5 /* Main.storyboard */; };
+		0D5C64DB1EB7CCA00055C3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64DA1EB7CCA00055C3F5 /* Assets.xcassets */; };
+		0D5C64DE1EB7CCA00055C3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64DC1EB7CCA00055C3F5 /* LaunchScreen.storyboard */; };
+		0D5C64E91EB7CCA00055C3F5 /* AdminMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64E81EB7CCA00055C3F5 /* AdminMoneyTests.swift */; };
+		0D5C64F41EB7CCA00055C3F5 /* AdminMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */; };
+		B2CAC723CDB38C65A83057E2 /* Pods_AdminMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8933D2C15C588E2D20D46533 /* Pods_AdminMoney.framework */; };
+		CD30FDD76ACFCA2E63CC41B6 /* Pods_AdminMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B0A756559A8A81298DAA6 /* Pods_AdminMoneyUITests.framework */; };
+		CDCE6E58BA9C6BB4C3DC5003 /* Pods_AdminMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E98580D84B589CD36E7C44 /* Pods_AdminMoneyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D5C64E51EB7CCA00055C3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5C64C81EB7CC9F0055C3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5C64CF1EB7CC9F0055C3F5;
+			remoteInfo = AdminMoney;
+		};
+		0D5C64F01EB7CCA00055C3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5C64C81EB7CC9F0055C3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5C64CF1EB7CC9F0055C3F5;
+			remoteInfo = AdminMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5C64D01EB7CC9F0055C3F5 /* AdminMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D5C64D51EB7CC9F0055C3F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D5C64D81EB7CCA00055C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D5C64DA1EB7CCA00055C3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5C64DD1EB7CCA00055C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D5C64DF1EB7CCA00055C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5C64E41EB7CCA00055C3F5 /* AdminMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5C64E81EB7CCA00055C3F5 /* AdminMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMoneyTests.swift; sourceTree = "<group>"; };
+		0D5C64EA1EB7CCA00055C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5C64EF1EB7CCA00055C3F5 /* AdminMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMoneyUITests.swift; sourceTree = "<group>"; };
+		0D5C64F51EB7CCA00055C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B8C85AA822F3061B057591 /* Pods-AdminMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoney/Pods-AdminMoney.release.xcconfig"; sourceTree = "<group>"; };
+		125B0A756559A8A81298DAA6 /* Pods_AdminMoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminMoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6AA710633572A123C53211 /* Pods-AdminMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoneyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoneyUITests/Pods-AdminMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8933D2C15C588E2D20D46533 /* Pods_AdminMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA36FAB3C7576BBCB1FBB0D7 /* Pods-AdminMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoney/Pods-AdminMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E98580D84B589CD36E7C44 /* Pods_AdminMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE78CED228E281613CB36296 /* Pods-AdminMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoneyTests/Pods-AdminMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F38495E7A09825292F4A2C69 /* Pods-AdminMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoneyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoneyUITests/Pods-AdminMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE9303954D24FA3898D646E /* Pods-AdminMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoneyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoneyTests/Pods-AdminMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5C64CD1EB7CC9F0055C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CAC723CDB38C65A83057E2 /* Pods_AdminMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64E11EB7CCA00055C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCE6E58BA9C6BB4C3DC5003 /* Pods_AdminMoneyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64EC1EB7CCA00055C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30FDD76ACFCA2E63CC41B6 /* Pods_AdminMoneyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F65DE02AB6C38F12535F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8933D2C15C588E2D20D46533 /* Pods_AdminMoney.framework */,
+				E9E98580D84B589CD36E7C44 /* Pods_AdminMoneyTests.framework */,
+				125B0A756559A8A81298DAA6 /* Pods_AdminMoneyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D5C64C71EB7CC9F0055C3F5 = {
+			isa = PBXGroup;
+			children = (
+				0D5C64D21EB7CC9F0055C3F5 /* AdminMoney */,
+				0D5C64E71EB7CCA00055C3F5 /* AdminMoneyTests */,
+				0D5C64F21EB7CCA00055C3F5 /* AdminMoneyUITests */,
+				0D5C64D11EB7CC9F0055C3F5 /* Products */,
+				1CFF65F76EB8854BC83B5D90 /* Pods */,
+				00F65DE02AB6C38F12535F53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5C64D11EB7CC9F0055C3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C64D01EB7CC9F0055C3F5 /* AdminMoney.app */,
+				0D5C64E41EB7CCA00055C3F5 /* AdminMoneyTests.xctest */,
+				0D5C64EF1EB7CCA00055C3F5 /* AdminMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5C64D21EB7CC9F0055C3F5 /* AdminMoney */ = {
+			isa = PBXGroup;
+			children = (
+				0DDF7B861EB84454009543C6 /* Controller */,
+				0DDF7B851EB8444F009543C6 /* View */,
+				0DDF7B841EB8443F009543C6 /* Model */,
+				0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */,
+				0D5C64D51EB7CC9F0055C3F5 /* ViewController.swift */,
+				0D5C64D71EB7CCA00055C3F5 /* Main.storyboard */,
+				0D5C64DA1EB7CCA00055C3F5 /* Assets.xcassets */,
+				0D5C64DC1EB7CCA00055C3F5 /* LaunchScreen.storyboard */,
+				0D5C64DF1EB7CCA00055C3F5 /* Info.plist */,
+			);
+			path = AdminMoney;
+			sourceTree = "<group>";
+		};
+		0D5C64E71EB7CCA00055C3F5 /* AdminMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C64E81EB7CCA00055C3F5 /* AdminMoneyTests.swift */,
+				0D5C64EA1EB7CCA00055C3F5 /* Info.plist */,
+			);
+			path = AdminMoneyTests;
+			sourceTree = "<group>";
+		};
+		0D5C64F21EB7CCA00055C3F5 /* AdminMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */,
+				0D5C64F51EB7CCA00055C3F5 /* Info.plist */,
+			);
+			path = AdminMoneyUITests;
+			sourceTree = "<group>";
+		};
+		0DDF7B841EB8443F009543C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0DDF7B851EB8444F009543C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0DDF7B861EB84454009543C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1CFF65F76EB8854BC83B5D90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA36FAB3C7576BBCB1FBB0D7 /* Pods-AdminMoney.debug.xcconfig */,
+				10B8C85AA822F3061B057591 /* Pods-AdminMoney.release.xcconfig */,
+				EE78CED228E281613CB36296 /* Pods-AdminMoneyTests.debug.xcconfig */,
+				FAE9303954D24FA3898D646E /* Pods-AdminMoneyTests.release.xcconfig */,
+				2F6AA710633572A123C53211 /* Pods-AdminMoneyUITests.debug.xcconfig */,
+				F38495E7A09825292F4A2C69 /* Pods-AdminMoneyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5C64CF1EB7CC9F0055C3F5 /* AdminMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5C64F81EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoney" */;
+			buildPhases = (
+				27A976EBECCE7D25E67F0233 /* [CP] Check Pods Manifest.lock */,
+				0D5C64CC1EB7CC9F0055C3F5 /* Sources */,
+				0D5C64CD1EB7CC9F0055C3F5 /* Frameworks */,
+				0D5C64CE1EB7CC9F0055C3F5 /* Resources */,
+				E390D12330E856D4803CD17F /* [CP] Embed Pods Frameworks */,
+				FB41288CFB6D849874C326F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdminMoney;
+			productName = AdminMoney;
+			productReference = 0D5C64D01EB7CC9F0055C3F5 /* AdminMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D5C64E31EB7CCA00055C3F5 /* AdminMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5C64FB1EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoneyTests" */;
+			buildPhases = (
+				3BF43338394F841A2D232FE9 /* [CP] Check Pods Manifest.lock */,
+				0D5C64E01EB7CCA00055C3F5 /* Sources */,
+				0D5C64E11EB7CCA00055C3F5 /* Frameworks */,
+				0D5C64E21EB7CCA00055C3F5 /* Resources */,
+				9B7868446A1E5FBF03EFAB02 /* [CP] Embed Pods Frameworks */,
+				83018EDF44F6C9EDB45F1C5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5C64E61EB7CCA00055C3F5 /* PBXTargetDependency */,
+			);
+			name = AdminMoneyTests;
+			productName = AdminMoneyTests;
+			productReference = 0D5C64E41EB7CCA00055C3F5 /* AdminMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D5C64EE1EB7CCA00055C3F5 /* AdminMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5C64FE1EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoneyUITests" */;
+			buildPhases = (
+				DF800B7892A7F2ED45613E6E /* [CP] Check Pods Manifest.lock */,
+				0D5C64EB1EB7CCA00055C3F5 /* Sources */,
+				0D5C64EC1EB7CCA00055C3F5 /* Frameworks */,
+				0D5C64ED1EB7CCA00055C3F5 /* Resources */,
+				DE922EF0FFE91C86754297A9 /* [CP] Embed Pods Frameworks */,
+				19143337B01F058287EC8EC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5C64F11EB7CCA00055C3F5 /* PBXTargetDependency */,
+			);
+			name = AdminMoneyUITests;
+			productName = AdminMoneyUITests;
+			productReference = 0D5C64EF1EB7CCA00055C3F5 /* AdminMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5C64C81EB7CC9F0055C3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JuanCompany;
+				TargetAttributes = {
+					0D5C64CF1EB7CC9F0055C3F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 69845R2YL4;
+						ProvisioningStyle = Automatic;
+					};
+					0D5C64E31EB7CCA00055C3F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 69845R2YL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5C64CF1EB7CC9F0055C3F5;
+					};
+					0D5C64EE1EB7CCA00055C3F5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 69845R2YL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5C64CF1EB7CC9F0055C3F5;
+					};
+				};
+			};
+			buildConfigurationList = 0D5C64CB1EB7CC9F0055C3F5 /* Build configuration list for PBXProject "AdminMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5C64C71EB7CC9F0055C3F5;
+			productRefGroup = 0D5C64D11EB7CC9F0055C3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5C64CF1EB7CC9F0055C3F5 /* AdminMoney */,
+				0D5C64E31EB7CCA00055C3F5 /* AdminMoneyTests */,
+				0D5C64EE1EB7CCA00055C3F5 /* AdminMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5C64CE1EB7CC9F0055C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5C64DE1EB7CCA00055C3F5 /* LaunchScreen.storyboard in Resources */,
+				0D5C64DB1EB7CCA00055C3F5 /* Assets.xcassets in Resources */,
+				0D5C64D91EB7CCA00055C3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64E21EB7CCA00055C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64ED1EB7CCA00055C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19143337B01F058287EC8EC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoneyUITests/Pods-AdminMoneyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27A976EBECCE7D25E67F0233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF43338394F841A2D232FE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83018EDF44F6C9EDB45F1C5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoneyTests/Pods-AdminMoneyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7868446A1E5FBF03EFAB02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoneyTests/Pods-AdminMoneyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE922EF0FFE91C86754297A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoneyUITests/Pods-AdminMoneyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF800B7892A7F2ED45613E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E390D12330E856D4803CD17F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoney/Pods-AdminMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB41288CFB6D849874C326F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdminMoney/Pods-AdminMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5C64CC1EB7CC9F0055C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5C64D61EB7CC9F0055C3F5 /* ViewController.swift in Sources */,
+				0D5C64D41EB7CC9F0055C3F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64E01EB7CCA00055C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5C64E91EB7CCA00055C3F5 /* AdminMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5C64EB1EB7CCA00055C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5C64F41EB7CCA00055C3F5 /* AdminMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D5C64E61EB7CCA00055C3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5C64CF1EB7CC9F0055C3F5 /* AdminMoney */;
+			targetProxy = 0D5C64E51EB7CCA00055C3F5 /* PBXContainerItemProxy */;
+		};
+		0D5C64F11EB7CCA00055C3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5C64CF1EB7CC9F0055C3F5 /* AdminMoney */;
+			targetProxy = 0D5C64F01EB7CCA00055C3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D5C64D71EB7CCA00055C3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5C64D81EB7CCA00055C3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D5C64DC1EB7CCA00055C3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5C64DD1EB7CCA00055C3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D5C64F61EB7CCA00055C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D5C64F71EB7CCA00055C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5C64F91EB7CCA00055C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA36FAB3C7576BBCB1FBB0D7 /* Pods-AdminMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D5C64FA1EB7CCA00055C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B8C85AA822F3061B057591 /* Pods-AdminMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0D5C64FC1EB7CCA00055C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE78CED228E281613CB36296 /* Pods-AdminMoneyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminMoney.app/AdminMoney";
+			};
+			name = Debug;
+		};
+		0D5C64FD1EB7CCA00055C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE9303954D24FA3898D646E /* Pods-AdminMoneyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminMoney.app/AdminMoney";
+			};
+			name = Release;
+		};
+		0D5C64FF1EB7CCA00055C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6AA710633572A123C53211 /* Pods-AdminMoneyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdminMoney;
+			};
+			name = Debug;
+		};
+		0D5C65001EB7CCA00055C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38495E7A09825292F4A2C69 /* Pods-AdminMoneyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 69845R2YL4;
+				INFOPLIST_FILE = AdminMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuanCompay.AdminMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdminMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5C64CB1EB7CC9F0055C3F5 /* Build configuration list for PBXProject "AdminMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C64F61EB7CCA00055C3F5 /* Debug */,
+				0D5C64F71EB7CCA00055C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5C64F81EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C64F91EB7CCA00055C3F5 /* Debug */,
+				0D5C64FA1EB7CCA00055C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5C64FB1EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C64FC1EB7CCA00055C3F5 /* Debug */,
+				0D5C64FD1EB7CCA00055C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5C64FE1EB7CCA00055C3F5 /* Build configuration list for PBXNativeTarget "AdminMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C64FF1EB7CCA00055C3F5 /* Debug */,
+				0D5C65001EB7CCA00055C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5C64C81EB7CC9F0055C3F5 /* Project object */;
+}
