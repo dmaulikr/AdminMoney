@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0D0B3BA71EB998EE00026A6F /* AddSubtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B3BA61EB998EE00026A6F /* AddSubtractViewController.swift */; };
+		0D49C5241EBCECC200FF0AE7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D49C5231EBCECC200FF0AE7 /* Person.swift */; };
 		0D5C64D41EB7CC9F0055C3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */; };
 		0D5C64D91EB7CCA00055C3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64D71EB7CCA00055C3F5 /* Main.storyboard */; };
 		0D5C64DB1EB7CCA00055C3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64DA1EB7CCA00055C3F5 /* Assets.xcassets */; };
 		0D5C64DE1EB7CCA00055C3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C64DC1EB7CCA00055C3F5 /* LaunchScreen.storyboard */; };
 		0D5C64E91EB7CCA00055C3F5 /* AdminMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64E81EB7CCA00055C3F5 /* AdminMoneyTests.swift */; };
 		0D5C64F41EB7CCA00055C3F5 /* AdminMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */; };
+		0D6F475E1EBACC2C00D1ADA9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F475D1EBACC2C00D1ADA9 /* SignInViewController.swift */; };
+		0D6F47611EBACE2500D1ADA9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F47601EBACE2500D1ADA9 /* Global.swift */; };
+		0DE661561EBA3B8A004AB429 /* PersonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661551EBA3B8A004AB429 /* PersonSingleton.swift */; };
+		0DE661581EBA3C56004AB429 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661571EBA3C56004AB429 /* BankAccount.swift */; };
+		0DE6615A1EBA52A3004AB429 /* FinancialReports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661591EBA52A3004AB429 /* FinancialReports.swift */; };
 		0DE694521EB9293F0080576B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE694511EB9293F0080576B /* LoginViewController.swift */; };
 		0DE694541EB92B7F0080576B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE694531EB92B7F0080576B /* HomeViewController.swift */; };
 		B2CAC723CDB38C65A83057E2 /* Pods_AdminMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8933D2C15C588E2D20D46533 /* Pods_AdminMoney.framework */; };
@@ -40,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		0D0B3BA61EB998EE00026A6F /* AddSubtractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubtractViewController.swift; sourceTree = "<group>"; };
+		0D49C5231EBCECC200FF0AE7 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0D5C64D01EB7CC9F0055C3F5 /* AdminMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D5C64D81EB7CCA00055C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +59,11 @@
 		0D5C64EF1EB7CCA00055C3F5 /* AdminMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMoneyUITests.swift; sourceTree = "<group>"; };
 		0D5C64F51EB7CCA00055C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6F475D1EBACC2C00D1ADA9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0D6F47601EBACE2500D1ADA9 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		0DE661551EBA3B8A004AB429 /* PersonSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSingleton.swift; sourceTree = "<group>"; };
+		0DE661571EBA3C56004AB429 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		0DE661591EBA52A3004AB429 /* FinancialReports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialReports.swift; sourceTree = "<group>"; };
 		0DE694511EB9293F0080576B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0DE694531EB92B7F0080576B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		10B8C85AA822F3061B057591 /* Pods-AdminMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminMoney/Pods-AdminMoney.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +140,7 @@
 		0D5C64D21EB7CC9F0055C3F5 /* AdminMoney */ = {
 			isa = PBXGroup;
 			children = (
+				0D6F475F1EBACE0600D1ADA9 /* Global-Function-Constants */,
 				0DDF7B861EB84454009543C6 /* Controller */,
 				0DDF7B851EB8444F009543C6 /* View */,
 				0DDF7B841EB8443F009543C6 /* Model */,
@@ -156,9 +169,21 @@
 			path = AdminMoneyUITests;
 			sourceTree = "<group>";
 		};
+		0D6F475F1EBACE0600D1ADA9 /* Global-Function-Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F47601EBACE2500D1ADA9 /* Global.swift */,
+			);
+			name = "Global-Function-Constants";
+			sourceTree = "<group>";
+		};
 		0DDF7B841EB8443F009543C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0DE661551EBA3B8A004AB429 /* PersonSingleton.swift */,
+				0DE661571EBA3C56004AB429 /* BankAccount.swift */,
+				0DE661591EBA52A3004AB429 /* FinancialReports.swift */,
+				0D49C5231EBCECC200FF0AE7 /* Person.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,6 +203,7 @@
 				0DE694511EB9293F0080576B /* LoginViewController.swift */,
 				0DE694531EB92B7F0080576B /* HomeViewController.swift */,
 				0D0B3BA61EB998EE00026A6F /* AddSubtractViewController.swift */,
+				0D6F475D1EBACC2C00D1ADA9 /* SignInViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -479,10 +505,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D49C5241EBCECC200FF0AE7 /* Person.swift in Sources */,
+				0DE6615A1EBA52A3004AB429 /* FinancialReports.swift in Sources */,
 				0DE694521EB9293F0080576B /* LoginViewController.swift in Sources */,
+				0DE661581EBA3C56004AB429 /* BankAccount.swift in Sources */,
 				0D5C64D41EB7CC9F0055C3F5 /* AppDelegate.swift in Sources */,
+				0D6F475E1EBACC2C00D1ADA9 /* SignInViewController.swift in Sources */,
 				0D0B3BA71EB998EE00026A6F /* AddSubtractViewController.swift in Sources */,
+				0DE661561EBA3B8A004AB429 /* PersonSingleton.swift in Sources */,
 				0DE694541EB92B7F0080576B /* HomeViewController.swift in Sources */,
+				0D6F47611EBACE2500D1ADA9 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     //MARK:-IBOutlet
+    @IBOutlet weak var currentMoneyLabel: UILabel!
     
 
     
@@ -28,6 +29,7 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     
     //MARK:-IBAction

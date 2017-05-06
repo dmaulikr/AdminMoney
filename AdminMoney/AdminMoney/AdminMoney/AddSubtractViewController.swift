@@ -50,9 +50,7 @@ class AddSubtractViewController: UIViewController {
     
     
     //MARK:-IBAction
-    func hiddenKeyBoard(){
-        view.endEditing(true)
-    }
+
     
     
     //MARK:-Utils

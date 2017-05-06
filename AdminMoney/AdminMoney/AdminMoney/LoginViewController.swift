@@ -11,6 +11,10 @@ import UIKit
 class LoginViewController: UIViewController {
     
     //MARK:-IBOutlet
+    @IBOutlet weak var txfUser: UITextField!
+    @IBOutlet weak var txfPassword: UITextField!
+    @IBOutlet var gestureLogin: UITapGestureRecognizer!
+    @IBOutlet weak var containerLogin: UIView!
     
     
     
@@ -19,7 +23,9 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        gestureLogin = UITapGestureRecognizer(target: self, action: #selector(hiddenKeyBoard))
+        view.addGestureRecognizer(gestureLogin)
+        containerLogin.addGestureRecognizer(gestureLogin)
         // Do any additional setup after loading the view.
     }
 
@@ -38,6 +44,7 @@ class LoginViewController: UIViewController {
     @IBAction func unwindLogIn(segue:UIStoryboardSegue){
         
     }
+
 
     /*
     // MARK: - Navigation
