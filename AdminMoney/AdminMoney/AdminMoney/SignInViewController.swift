@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class SignInViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate {
 
@@ -100,11 +102,44 @@ class SignInViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDa
         if noneEmpty{
             //En caso de tener todos los textField completos, entonces creo al usuario y lo meto al singleton
             let newPerson = Person(name: txfName.text!, lastName: txfLastName.text!, id: txfId.text!, account: BankAccount(), country: txfCountry.text!)
-            var balance = txfBalance.text?.replacingOccurrences(of: ",", with: ".")
-            print(txfBalance.text!)
+            //Le asigno un Id unico a la cuenta del nuevo usuario
+            newPerson.account.idBankAccount = newPerson.country + newPerson.lastName + newPerson.id
+            //Con esta linea cambio todas las , en saldo por .
+            let balance = txfBalance.text?.replacingOccurrences(of: ",", with: ".")
             newPerson.initAccount(beginningBalance: Double(balance!)!)
-            print("LLego :)  --    \(balance)")
-
+            
+            /*Genero el primer reporte que es el saldo inicial del usuario, para lograr hacer el reporte correctamente
+             debo ingresar la fecha en que se hace, es decir el dia mes año y hora del dispositivo en el momento de crear la cuenta
+             */
+            let today = Date()
+            let formatter = DateFormatter()
+            formatter.dateStyle = .medium
+            formatter.timeStyle = .short
+            let date = formatter.string(from: today)
+            
+            newPerson.account.reports.addMoney(moneyToKeep: Double(balance!)!, concept: "Saldo Inicial", date: date)
+            
+            //Registro al usuario en la base de datos de fireBase
+            fireBasePostNewUser(person: newPerson)
+            
+            let name = newPerson.name.replacingOccurrences(of: " ", with: "_")
+            let lastName = newPerson.lastName.replacingOccurrences(of: " ", with: "_")
+            let userBranchId = name + "_" + lastName
+            
+            
+            //Creo la cuenta del usuario en fire base y la asocio al usuario creado mediante userBranchId
+            fireBasePostAccountUser(person: newPerson, userBranchId: userBranchId)
+            
+            //Creo el reporte del usuario del saldo inicial
+            fireBasePostReports(person: newPerson, userBranchId: userBranchId)
+            
+            
+            //Meto al usuario al singleton
+            PersonSingleton.sharedInstance.fillSingleton(name: newPerson.name, lastName: newPerson.lastName, id: newPerson.id, account: newPerson.account, country: newPerson.country)
+            
+            //Con esta instruccion, me devuelvo por el navigation controller a la vista anterior∫
+            navigationController?.popToRootViewController(animated: true)
+            
         }else{
             //Muestro la alerta, esta funcion esta declarada en Global.swift
             showAlert(titleMessage: "emptyField")

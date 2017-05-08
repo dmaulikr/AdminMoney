@@ -172,7 +172,7 @@
                                         <rect key="frame" x="26" y="136.5" width="267" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Clave" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X2y-kS-KbB">
                                         <rect key="frame" x="26.5" y="204" width="267" height="30"/>
@@ -226,7 +226,7 @@
                     <navigationItem key="navigationItem" title="Login" id="teZ-X5-zIW">
                         <barButtonItem key="rightBarButtonItem" title="Registrarse" id="d28-A0-58h">
                             <connections>
-                                <segue destination="sUm-fO-h8V" kind="show" id="b6s-SE-ebY"/>
+                                <segue destination="sUm-fO-h8V" kind="show" identifier="SignIn" id="b6s-SE-ebY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

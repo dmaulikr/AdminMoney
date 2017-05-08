@@ -6,6 +6,9 @@ target 'AdminMoney' do
   use_frameworks!
 
   # Pods for AdminMoney
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+
 
   target 'AdminMoneyTests' do
     inherit! :search_paths

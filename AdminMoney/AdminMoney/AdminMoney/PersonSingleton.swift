@@ -24,5 +24,13 @@ class PersonSingleton{
         self.account = BankAccount()
         self.country = ""
     }
+    
+    func fillSingleton(name:String, lastName:String, id:String, account:BankAccount, country:String){
+        PersonSingleton.sharedInstance.name = name
+        PersonSingleton.sharedInstance.lastName = lastName
+        PersonSingleton.sharedInstance.id = id
+        PersonSingleton.sharedInstance.account = account
+        PersonSingleton.sharedInstance.country = country
+    }
 
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>671508633732-bj6ulgtode2r5oinb8qeuaictmaf4k64.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.671508633732-bj6ulgtode2r5oinb8qeuaictmaf4k64</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBpfKz7vqAvAAIjZpsJx7kDQC1rxRDEoiI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>671508633732</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>JuanCompay.AdminMoney</string>
+	<key>PROJECT_ID</key>
+	<string>admin-money</string>
+	<key>STORAGE_BUCKET</key>
+	<string>admin-money.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:671508633732:ios:e07a53b6213d10d5</string>
+	<key>DATABASE_URL</key>
+	<string>https://admin-money.firebaseio.com</string>
+</dict>
+</plist>

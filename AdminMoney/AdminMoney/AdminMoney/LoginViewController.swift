@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController,UITextFieldDelegate {
     
     //MARK:-IBOutlet
     @IBOutlet weak var txfUser: UITextField!
     @IBOutlet weak var txfPassword: UITextField!
     @IBOutlet var gestureLogin: UITapGestureRecognizer!
+    
     @IBOutlet weak var containerLogin: UIView!
     
     
@@ -23,6 +26,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         gestureLogin = UITapGestureRecognizer(target: self, action: #selector(hiddenKeyBoard))
         view.addGestureRecognizer(gestureLogin)
         containerLogin.addGestureRecognizer(gestureLogin)
@@ -43,6 +47,11 @@ class LoginViewController: UIViewController {
     
     @IBAction func unwindLogIn(segue:UIStoryboardSegue){
         
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        return true
     }
 
 

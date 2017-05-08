@@ -17,6 +17,7 @@
 		0D5C64F41EB7CCA00055C3F5 /* AdminMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C64F31EB7CCA00055C3F5 /* AdminMoneyUITests.swift */; };
 		0D6F475E1EBACC2C00D1ADA9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F475D1EBACC2C00D1ADA9 /* SignInViewController.swift */; };
 		0D6F47611EBACE2500D1ADA9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F47601EBACE2500D1ADA9 /* Global.swift */; };
+		0DE6237D1EBFE6D200C17401 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6237C1EBFE6D200C17401 /* GoogleService-Info.plist */; };
 		0DE661561EBA3B8A004AB429 /* PersonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661551EBA3B8A004AB429 /* PersonSingleton.swift */; };
 		0DE661581EBA3C56004AB429 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661571EBA3C56004AB429 /* BankAccount.swift */; };
 		0DE6615A1EBA52A3004AB429 /* FinancialReports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE661591EBA52A3004AB429 /* FinancialReports.swift */; };
@@ -61,6 +62,7 @@
 		0D5C64F51EB7CCA00055C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6F475D1EBACC2C00D1ADA9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0D6F47601EBACE2500D1ADA9 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		0DE6237C1EBFE6D200C17401 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0DE661551EBA3B8A004AB429 /* PersonSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSingleton.swift; sourceTree = "<group>"; };
 		0DE661571EBA3C56004AB429 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		0DE661591EBA52A3004AB429 /* FinancialReports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialReports.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				0DDF7B841EB8443F009543C6 /* Model */,
 				0D5C64D31EB7CC9F0055C3F5 /* AppDelegate.swift */,
 				0D5C64DA1EB7CCA00055C3F5 /* Assets.xcassets */,
+				0DE6237C1EBFE6D200C17401 /* GoogleService-Info.plist */,
 				0D5C64DF1EB7CCA00055C3F5 /* Info.plist */,
 			);
 			path = AdminMoney;
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5C64DE1EB7CCA00055C3F5 /* LaunchScreen.storyboard in Resources */,
+				0DE6237D1EBFE6D200C17401 /* GoogleService-Info.plist in Resources */,
 				0D5C64DB1EB7CCA00055C3F5 /* Assets.xcassets in Resources */,
 				0D5C64D91EB7CCA00055C3F5 /* Main.storyboard in Resources */,
 			);

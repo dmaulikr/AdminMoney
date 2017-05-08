@@ -24,12 +24,12 @@ class FinancialReports {
     
     func addMoney(moneyToKeep:Double, concept:String, date:String){
         let report = ["MoneyToKeep":moneyToKeep, "Concept":concept, "Date":date] as [String : Any]
-        self.reportAddMoney.append(report as [String : AnyObject])
+        self.reportAddMoney.append(report as [String : Any] as [String : AnyObject])
     }
     
     func subtractMoney(moneyToWithdraw:Double, concept:String, date:String){
         let report = ["MoneyToWithdraw":moneyToWithdraw, "Concept":concept, "Date":date] as [String : Any]
-        self.reportSubtractMoney.append(report as [String : AnyObject])
+        self.reportSubtractMoney.append(report as [String : Any] as [String : AnyObject])
     }
     
     
